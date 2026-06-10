@@ -1,0 +1,2209 @@
+* {
+  margin: 0;
+  font-family: Inter;
+}
+/* 
+body {
+  padding: 0 100px;
+} */
+
+#navbar {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  padding: 0 150px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navlogo {
+  display:flex;
+  align-items: center;
+  font-size: 22px;
+ /*  font-family: "Lato", sans-serif; */
+  font-weight: 700;
+  color:rgb(44, 44, 45);
+}
+
+.navlogo img {
+  height: 40px;
+}
+
+
+.navlinks ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 16px;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+}
+
+.navlinks {
+  display:flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navlinks button {
+  background-color: rgb(76, 175, 79) ;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+}
+
+#hero-class {
+  padding: 80px 150px 0px 150px;
+  height: 440px; 
+  background-color: rgb(245, 247, 250) ;
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.hero-details h1 {
+  font-size: 70px;
+  font-weight: 500;
+  width: 90%;
+}
+
+.hero-details span {
+  color: rgb(76, 175, 79);
+}
+
+ p {
+  padding: 10px 0px;
+  font-size: 16px;
+  color: gray;
+}
+
+.hero-image img {
+  height: 390px;
+  width: 400px;
+}
+
+.hero-details button {
+  padding: 20px 40px;
+  background-color: rgb(76, 175, 79);
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 30px 0px;
+}
+
+.dots {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(189, 184, 184) ;
+}
+
+#col {
+  background-color: rgb(76, 175, 79);
+}
+
+#client {
+  background-color: white;
+  height: 250px;
+  padding: 0px 150px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.pic {
+  padding-top: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#cont {
+  background-color: white;
+  padding: 20px 150px;
+  text-align: center;
+}
+
+.header h1{
+  font-size: 36px;
+  font-weight: 500;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.header p {
+  font-size: 16px;
+  color: gray;
+  margin: 10px auto;
+}
+
+.grids {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+
+}
+
+.box {
+  background-color: white;
+  padding:30px;
+  border-radius: 10px;
+  box-shadow: 0px 0.5px 0.5px rgb(180, 179, 179);
+  width: 300px;
+}
+
+.box img {
+  height: 70px;
+  width: 70px;
+
+}
+
+.box h1 {
+  font-size: 25px;
+  margin: 10px auto;
+  width: 55%;
+}
+
+.box p {
+  font-size: 16px;
+  color: gray;
+  font-weight: 200px;
+}
+
+#features {
+  padding: 10px 150px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.features-section {
+  height: 300px;
+}
+
+#features img {
+  height: 350px;
+}
+
+.features-section h2 {
+  font-size: 40px;
+  font-weight: 500;
+  width: 75%;
+  margin: 10px 0px;
+}
+
+.features-section p {
+  font-size: 16px;
+  width: 95%;
+}
+
+.features-section button {
+  margin: 20px 0px;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: rgb(76, 175, 79);
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#section {
+  height: 380px;
+  margin: 40px 0px;
+  background-color: rgb(245, 247, 250);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:0 150px;
+}
+
+.section1 h2 {
+  font-size: 40px;
+  font-weight: 500;
+  width:70% ;
+  padding: 10px 0px;
+}
+
+.section1 h2 span {
+  color: rgb(76, 175, 79);
+}
+
+.section1  p {
+  color: black;
+  font-size: 16px;
+}
+
+.section2{
+  margin: 0 80px 0 0px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 30px 80px;
+}
+.section-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#site {
+  margin: 30px 0px;
+  padding: 0 150px;
+  height: 480px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+#site img {
+  box-shadow: 0px 0.5px 0.5px rgb(163, 163, 163);
+  height: 480px;
+}
+
+
+.site-section {
+  margin: 20px;
+}
+
+.site-section h1{
+  margin: 20px 0px 10px 0px;
+  font-size: 40px;
+  font-weight: 500;
+  width: 95%;
+}
+
+.site-section p {
+  font-size: 14px;
+  width: 94%;
+  font-weight: 200px;
+  line-height: 1.5;
+}
+
+.site-section button{
+  margin: 20px 0px;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: rgb(76, 175, 79);
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#customer {
+  height: 480px;
+  background-color: aqua;
+  margin: 40px 0px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  background-color: rgb(245, 247, 250);
+}
+
+.company {
+  height: 400px;
+}
+
+.customer-section {
+  height: 400px;
+}
+
+.customer-section p {
+  font-size: 16px;
+  width: 86%;
+  line-height: 1.5;
+  color: rgb(78, 78, 78);
+}
+
+.customer-section h2 {
+  color: rgb(76, 175, 79);
+  margin: 10px 0px;
+  font-weight: 600;
+}
+
+.customer-section span p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+
+.customer-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin: 30px 0px;
+}
+
+.customer-logo a {
+  text-decoration: none;
+  font-size: 22px;
+  color:rgb(76, 175, 79);
+}
+
+.customer-logo a i{
+  font-size: 18px;
+  margin: 0px 10px;
+}
+
+#guide {
+  height: 480px;
+  padding: 0 100px;
+  margin: 50px 0px;
+}
+
+.guide-heading {
+  text-align: center;
+}
+
+.guide-heading h1 {
+  font-size: 40px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.guide-heading p {
+  font-size: 16px;
+  margin: 0 auto;
+  width: 48%;
+  font-weight: 400;
+}
+
+.guide-images {
+  width: auto;
+  padding: 10px 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.guide-box img {
+  height: 250px;
+  width: 400px;
+}
+
+.guide-box2 {
+  height: 175px;
+  width: 300px;
+  background-color: rgb(245, 247, 250);
+  transform: translate(30px,-87px);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 10px;
+  box-shadow: 0px 10px 15px rgb(220, 223, 227);
+
+}
+
+.guide-box2 p {
+  font-size: 22px;
+  padding-bottom: 30px;
+  width: 98%;
+  line-height: 1.2;
+}
+
+.guide-box2 a{
+  text-decoration: none;
+  color: rgb(76, 175, 79);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.guide-box2 a i {
+  text-align: center;
+  margin: 0px 10px;
+}
+
+#demo {
+  height: 280px;
+  background-color: rgb(245, 247, 250);
+  text-align: center;
+  padding: 20px 100px;
+}
+
+#demo h1 {
+  font-size: 75px;
+  font-weight: 600;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.demo-btn {
+  margin: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: rgb(76, 175, 79);
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+} 
+
+#footbar {
+  height: 350px;
+  background-color: rgb(38, 50, 56);
+  padding: 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+ .foot-icon {
+  display: flex;
+  gap: 20px;
+ }
+
+.rights {
+  margin: 20px 0px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.rights h1 {
+  color:white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.rights p {
+  font-size: 12px;
+  line-height: 2;
+  color: white;
+  font-weight: 200;
+}
+
+.updates {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  height: 300px;
+  margin: 20px 0px;
+}
+
+.links table{
+  width: 100%;
+  border-collapse: separate;
+  margin: 5px auto;
+}
+
+.links th {
+  font-size: 22px;
+  font-weight: 500;
+
+}
+
+.links  th,td {
+  padding: 12px 40px;
+  text-align: left;
+}
+
+.links td {
+  font-weight: 100;
+}
+
+.mail {
+  padding: 30px 0px;
+}
+
+.mail h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.mail input {
+  height: 20px;
+  padding: 15px 70px 15px 10px;
+  margin: 20px 0px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgb(81, 91, 96);
+  color: white;
+}
+
+input::placeholder{
+  color: white;
+  font-weight:300;
+}
+
+.mail img {
+  height: 40px;
+  position: relative;
+  right: 60px;
+  top: 15px;
+}
+
+@media (max-width:426px) {
+
+  #navbar{
+    background-color: white;
+    height: 60px;
+    padding: 0 30px;
+  }
+
+  .navlogo {
+    font-size: 16px;
+  }
+
+  .navlogo img {
+    height: 30px;
+  }
+
+  .navlinks {
+    display: none;
+  }
+  
+  #hero-class {
+    padding: 40px 40px 0px 40px;
+    height: 270px; 
+    background-color: rgb(245, 247, 250) ;
+  }
+  
+  .hero-details h1 {
+    font-size: 32px;
+    font-weight: 500;
+    width: 100%;
+  }
+  
+  .hero-details span {
+    color: rgb(76, 175, 79);
+  }
+  
+   p {
+    padding: 10px 0px;
+    font-size: 12px;
+    width: 85%;
+    color: gray;
+  }
+  
+  .hero-image img {
+    display: none;
+    }
+  
+  .hero-details button {
+    padding: 15px 30px;
+    background-color: rgb(76, 175, 79);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .btn {
+    padding: 20px 0px;
+  }
+  
+  .dots {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .dot {
+    height: 6px;
+    width: 6px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(189, 184, 184) ;
+  }
+  
+  #col {
+    background-color: rgb(76, 175, 79);
+  }
+  
+  #client {
+    background-color: white;
+    height: 130px;
+    padding: 0px 40px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  #client h1{
+    font-size: 26px;
+    width: 90%;
+  }
+  #client p {
+    font-size: 10px;
+  }
+  .pic {
+    padding-top: 20px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .pic img {
+    height: 30px;
+  }
+
+  #cont {
+    background-color: white;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  .header h1{
+    font-size: 24px;
+    font-weight: 500;
+    width: 100%;
+  }
+  
+  .header p {
+    font-size: 14px;
+    color: gray;
+    margin: 0px auto;
+    margin-bottom: 20px;
+  }
+  
+  .grids {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+  
+  }
+  
+  .box {
+    background-color: white;
+    padding:15px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0.5px 0.5px rgb(180, 179, 179);
+    width: auto;
+  }
+  
+  .box img {
+    height: 50px;
+    width: 50px;
+  
+  }
+  
+  .box h1 {
+    font-size: 22px;
+    margin: 0px auto;
+    width: 55%;
+  }
+  
+  .box p {
+    font-size: 16px;
+    color: gray;
+    font-weight: 200px;
+    margin: 0 auto;
+  }
+  
+  #features {
+    margin-bottom: 20px ;
+    padding: 10px 30px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 0px;
+  }
+  
+  .features-section {
+    height: 150px;
+  }
+  
+  #features img {
+    height: 180px;
+    width: 150px;
+  }
+  
+  .features-section h2 {
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    margin: 0px 0px;
+  }
+  
+  .features-section p {
+    font-size: 8px;
+    width: 100%;
+    line-height: 1.2;
+  }
+  
+  .features-section button {
+    margin: 0px 0px;
+    padding: 5px 5px;
+    font-size: 6px;
+    border-radius: 2px;
+  }
+  
+  #section {
+    height: 250px;
+    margin: 0px 0px;
+    background-color: rgb(245, 247, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:0 40px;
+    text-align: center;
+    gap: 0px;
+  }
+  
+  .section1 h2 {
+    font-size: 22px;
+    font-weight: 500;
+    width:70% ;
+    padding: 0px 0px;
+    margin: 0 auto;
+  }
+  
+  .section1 h2 span {
+    color: rgb(76, 175, 79);
+  }
+  
+  .section1  p {
+    color: black;
+    font-size: 10px;
+    margin: 0 auto;
+  }
+  
+  .section2{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px 40px ;
+  }
+  .section-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .section-icon img {
+    height: 50px;
+  }
+  
+  .sub-section h1 {
+    font-size: 16px;
+  }
+
+  .sub-section p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  #site {
+    margin: 0px 0px;
+    padding: 0 30px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #site img {
+    box-shadow: 0px 0.5px 0.5px rgb(163, 163, 163);
+    height: 150px;
+    width: 100px;
+  }
+  
+  
+  .site-section {
+    height: 170px;
+    width: 0 auto;
+    margin: 10px 0px;
+  }
+  
+  .site-section h1{
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+  }
+  
+  .site-section p {
+    font-size: 7px;
+    width: 100%;
+    font-weight: 200px;
+    line-height: 1.2;
+  }
+  
+  .site-section button{
+    margin: 0px 0px;
+    padding: 5px 5px;
+    font-size: 10px;
+    background-color: rgb(76, 175, 79);
+    border-style: none;
+    border-radius: 2px;
+    color: white;
+  }
+  
+  #customer {
+    height: 180px;
+    margin: 0px 0px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(245, 247, 250);
+  }
+  
+  .company {
+    height: 150px;
+    width: 120px;
+  }
+  
+  .customer-section {
+    height: 150px;
+  }
+  
+  .customer-section p {
+    font-size: 7px;
+    width: 100%;
+    line-height: 1.2;
+    color: rgb(78, 78, 78);
+  }
+  
+  .customer-section h2 {
+    color: rgb(76, 175, 79);
+    margin: 0px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  
+  .customer-section span p {
+    color: gray;
+    font-size: 8px;
+    font-weight: 200px;
+  }
+  
+  .customer-logo img {
+    height: 16px;
+  }
+  
+  .customer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin: 0px 0px;
+  }
+  
+  .customer-logo a {
+    text-decoration: none;
+    font-size: 7px;
+    color:rgb(76, 175, 79);
+  }
+  
+  .customer-logo a i{
+    font-size: 7px;
+    margin: 0px 10px;
+  }
+  
+  #guide {
+    height: 350px;
+    padding: 0 30px;
+    margin: 10px 0px;
+  }
+  
+  .guide-heading {
+    text-align: center;
+  }
+  
+  .guide-heading h1 {
+    font-size: 22px;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  
+  .guide-heading p {
+    font-size: 8px;
+    margin: 0 auto;
+    width: 88%;
+    font-weight: 400;
+  }
+  
+  .guide-images {
+    width: auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0px;
+  }
+  
+  .guide-box img {
+    height: 80px;
+    width: 150px;
+  }
+  
+  .guide-box2 {
+    height: 60px;
+    width: 100px;
+    background-color: rgb(245, 247, 250);
+    transform: translate(15px,-30px);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 5px;
+    box-shadow: 0px 10px 15px rgb(220, 223, 227);
+  
+  }
+  
+  .guide-box2 p {
+    font-size: 7px;
+    padding-bottom: 0px;
+    width: 98%;
+    line-height: 1.2;
+  }
+  
+  .guide-box2 a{
+    text-decoration: none;
+    color: rgb(76, 175, 79);
+    font-size: 8px;
+    font-weight: 500;
+  }
+  
+  .guide-box2 a i {
+    text-align: center;
+    margin: 0px 10px;
+  }
+  
+  #demo {
+    height: 110px;
+    background-color: rgb(245, 247, 250);
+    text-align: center;
+    padding: 20px 30px;
+  }
+  
+  #demo h1 {
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .demo-btn {
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 8px;
+    font-weight: 300;
+    background-color: rgb(76, 175, 79);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+  } 
+  
+  #footbar {
+    height: 380px;
+    background-color: rgb(38, 50, 56);
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    color: white;
+  }
+   .foot-icon {
+    display: flex;
+    gap: 5px;
+    height: 20px;
+   }
+  
+  .rights {
+    margin: 0px 0px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .rights h1 {
+    color:white;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .rights p {
+    font-size: 10px;
+    width: 100%;
+    line-height: 2;
+    color: white;
+    font-weight: 200;
+  }
+  
+  .updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0px;
+    height: 0px;
+    margin: 0px 0px;
+  }
+  
+  .links table{
+    width: 100%;
+    border-collapse: separate;
+    margin: 80px 0px 0px 0px;
+  }
+  
+  .links th {
+    font-size: 16px;
+    font-weight: 500;
+  
+  }
+  
+  .links  th,td {
+    padding: 2px 80px 2px 0px;
+    text-align: left;
+  }
+  
+  .links td {
+    font-weight: 100;
+  }
+  
+  .mail {
+    padding: 20px 0px;
+  }
+  
+  .mail h1 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .mail input {
+    height: 10px;
+    padding: 10px 70px 10px 10px;
+    margin: 10px 0px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(81, 91, 96);
+    color: white;
+  }
+  
+  input::placeholder{
+    color: white;
+    font-weight:300;
+  }
+  
+  .mail img {
+    height: 25px;
+    position: relative;
+    right: 40px;
+    top: 8px;
+  }
+  
+}
+
+@media (min-width:427px) and (max-width:768px) {
+  #navbar {
+    height: 60px;
+    display: flex;
+    padding: 0 60px;
+    gap: 40px;
+  }
+  .navlogo {
+    font-size: 16px;
+  }
+  
+  .navlogo img {
+    height: 30px;
+  }
+  
+  
+  .navlinks ul {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  
+  .navlinks {
+    gap: 20px;
+  }
+  
+  .navlinks button {
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+  
+  #hero-class {
+    padding: 50px 60px 0px 60px;
+    height: 350px; 
+    background-color: rgb(245, 247, 250) ;
+  }
+
+  
+  .hero-details h1 {
+    font-size: 42px;
+    width: 100%;
+  }
+  
+   p {
+    padding: 10px 0px;
+    font-size: 13px;
+    width: 100%;
+  }
+  
+  .hero-image img {
+    height: 300px;
+    width: 200px;
+  }
+  
+  .hero-details button {
+    padding: 20px 40px;
+  }
+  
+  .btn {
+    padding: 30px 0px;
+  }
+  
+  #client {
+    height: 200px;
+    padding: 0px 60px;
+  }
+  
+  
+  #cont {
+    padding: 20px 60px;
+  }
+  
+  .header h1{
+    font-size: 32px;
+    width: 70%;
+    font-weight: 400;
+  }
+  
+  .header p {
+    font-size: 18px;
+  }
+  
+  .grids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  
+  }
+  
+  .box {
+    padding:30px;
+    width: 250px;
+  }
+  
+  
+  #features {
+    padding: 0px 60px;
+    height: 400px;
+    gap: 10px;
+  }
+  
+  .features-section {
+    height: 300px;
+  }
+  
+  #features img {
+    height: 300px;
+    width: 230px;
+  }
+  
+  .features-section h2 {
+    font-size: 28px;
+    font-weight: 500;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  
+  .features-section p {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .features-section button {
+    margin: 20px 0px;
+    padding: 10px 20px;
+  }
+  
+  #section {
+    background-color: aqua;
+    height: 400px;
+    margin: 10px 0px;
+    background-color: rgb(245, 247, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:0 60px;
+    text-align: left;
+  }
+  
+  .section1 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    width:65% ;
+    margin: 0 auto;
+    padding: 0px 0px;
+    text-align: center;
+  }
+  
+  .section1  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .section2{
+    margin: 0 0px 0 0px;
+    grid-gap: 10px 100px;
+  }
+  
+  #site {
+    margin: 30px 0px;
+    padding: 0 60px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #site img {
+    box-shadow: 0px 0.5px 0.5px rgb(163, 163, 163);
+    height: 350px;
+    width: 200px;
+  }
+  
+  
+  .site-section {
+    height: 250px;
+  }
+  
+  .site-section h1{
+    margin: 0px 0px 10px 0px;
+    font-size: 32px;
+    width: 100%;
+  }
+  
+  .site-section p {
+    font-size: 10px;
+    width: 100%;
+  }
+  
+  .site-section button{
+    margin: 10px 0px;
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+  
+  #customer {
+    height: 300px;
+    margin: 40px 0px;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(245, 247, 250);
+  }
+  
+  .company {
+    height: 220px;
+    width: 200px;
+  }
+  
+  .customer-section {
+    height: 220px;
+  }
+  
+  .customer-section p {
+    font-size: 10px;
+    width: 100%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+  }
+  
+  .customer-section h2 {
+    color: rgb(76, 175, 79);
+    margin: 0px 0px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .customer-section span p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 200px;
+  }
+  
+  .customer-section img {
+    height: 30px;
+  }
+
+  
+  .customer-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0px;
+  }
+  
+  .customer-logo a {
+    font-size: 14px;
+  }
+  
+  .customer-logo a i{
+    font-size: 14px;
+    margin: 0px 5px;
+  }
+  
+  #guide {
+    height: 360px;
+    padding: 0 60px;
+    margin: 10px 0px;
+  }
+  
+  .guide-heading {
+    text-align: center;
+  }
+  
+  .guide-heading h1 {
+    font-size: 30px;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  
+  .guide-heading p {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 400;
+  }
+  
+  .guide-images {
+    width: auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .guide-box img {
+    height: 150px;
+    width: 200px;
+  }
+  
+  .guide-box2 {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(245, 247, 250);
+    transform: translate(20px,-50px);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 5px;
+    box-shadow: 0px 10px 15px rgb(220, 223, 227);
+  
+  }
+  
+  .guide-box2 p {
+    font-size: 11px;
+    padding-bottom: 10px;
+    width: 100%;
+    line-height: 1.2;
+  }
+  
+  .guide-box2 a{
+    text-decoration: none;
+    color: rgb(76, 175, 79);
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .guide-box2 a i {
+    text-align: center;
+    margin: 0px 10px;
+  }
+
+  #demo {
+    height: 230px;
+    padding: 20px 60px;
+  }
+  
+  #demo h1 {
+    font-size: 55px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #footbar {
+    height: 350px;
+    background-color: rgb(38, 50, 56);
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 50px;
+  }
+   .foot-icon {
+    display: flex;
+    gap: 10px;
+   }
+  
+  .rights {
+    margin: 0px 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .rights h1 {
+    color:white;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .rights p {
+    font-size: 12px;
+    line-height: 2;
+    color: white;
+    font-weight: 200;
+  }
+  
+  .updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 0px;
+    height: 300px;
+    margin: 20px 0px;
+  }
+  
+  .links table{
+    width: 100%;
+    border-collapse: separate;
+    margin: 0px auto;
+  }
+  
+  .links th {
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  
+  .links  th,td {
+    padding: 5px 30px;
+    text-align: left;
+  }
+  
+  .links td {
+    font-weight: 100;
+  }
+  
+  .mail {
+    padding: 15px 0px;
+  }
+  
+  .mail h1 {
+    font-size:16px;
+    font-weight: 500;
+  }
+  .mail input {
+    height: 20px;
+    padding: 10px 70px 15px 10px;
+    margin: 10px 0px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(81, 91, 96);
+    color: white;
+  }
+  
+  input::placeholder{
+    color: white;
+    font-weight:300;
+  }
+  
+  .mail img {
+    height: 40px;
+    position: relative;
+    right: 60px;
+    top: 15px;
+  }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  #navbar {
+    height: 80px;
+    display: flex;
+    padding: 0 80px;
+    gap: 40px;
+  }
+  .navlogo {
+    font-size: 18px;
+  }
+  
+  .navlogo img {
+    height: 32px;
+  }
+  
+  
+  .navlinks ul {
+    gap: 10px;
+    font-size: 16px;
+  }
+
+  
+  .navlinks {
+    gap: 20px;
+  }
+  
+  .navlinks button {
+    padding: 10px 10px;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+  
+  #hero-class {
+    padding: 40px 80px 0px 80px;
+    height: 350px; 
+    background-color: rgb(245, 247, 250) ;
+    gap: 40px;
+  }
+
+  
+  .hero-details h1 {
+    font-size: 48px;
+    width: 90%;
+  }
+  
+   p {
+    padding: 10px 0px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .hero-image img {
+    height: 300px;
+    width: 300px;
+  }
+
+  
+  #client {
+    height: 200px;
+    padding: 0px 80px;
+  }
+  
+  
+  #cont {
+    padding: 20px 80px;
+  }
+  
+  .header h1{
+    font-size: 32px;
+    width: 50%;
+    font-weight: 400;
+  }
+  
+  .header p {
+    font-size: 18px;
+  }
+  
+  .grids {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  
+  }
+  
+  .box {
+    padding:20px 20px;
+    width: 240px;
+  }
+  
+  #features {
+    padding: 0px 60px;
+    height: 400px;
+    gap: 10px;
+  }
+  
+  .features-section {
+    height: 300px;
+  }
+  
+  #features img {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .features-section h2 {
+    font-size: 38px;
+    font-weight: 500;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  
+  .features-section p {
+    font-size: 14px;
+    width: 99%;
+  }
+
+  
+#section {
+  height: 300px;
+  margin: 40px 0px;
+  background-color: rgb(245, 247, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 80px;
+  gap: 10px;
+}
+
+.section1 h2 {
+  font-size: 34px;
+  font-weight: 500;
+  width:95% ;
+  padding: 10px 0px;
+}
+
+.section1 h2 span {
+  color: rgb(76, 175, 79);
+}
+
+.section1  p {
+  color: black;
+  font-size: 16px;
+}
+
+.section2{
+  margin: 0 0px 0 0px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 10px 30px;
+}
+
+.section2 h1 {
+  font-size: 18px;
+}
+
+  
+  #site {
+    margin: 30px 0px;
+    padding: 0 80px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #site img {
+    box-shadow: 0px 0.5px 0.5px rgb(163, 163, 163);
+    height: 350px;
+    width: 300px;
+  }
+  
+  
+  .site-section {
+    height: 300px;
+  }
+  
+  .site-section h1{
+    margin: 0px 0px 10px 0px;
+    font-size: 32px;
+    width: 100%;
+  }
+  
+  .site-section p {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  #customer {
+    height: 300px;
+    margin: 40px 0px;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(245, 247, 250);
+  }
+  
+  .company {
+    height: 240px;
+    width: 200px;
+  }
+  
+  .customer-section {
+    height: 240px;
+  }
+  
+  .customer-section p {
+    font-size: 12px;
+    width: 100%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+  }
+  
+  .customer-section h2 {
+    color: rgb(76, 175, 79);
+    margin: 0px 0px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .customer-section span p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 200px;
+  }
+  
+  .customer-section img {
+    height: 30px;
+  }
+
+  
+  .customer-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0px;
+  }
+  
+  .customer-logo a {
+    font-size: 14px;
+  }
+  
+  .customer-logo a i{
+    font-size: 14px;
+    margin: 0px 5px;
+  }
+  
+  #guide {
+    height: 360px;
+    padding: 0 80px;
+    margin: 20px 0px;
+  }
+  
+  .guide-heading {
+    text-align: center;
+  }
+  
+  .guide-heading h1 {
+    font-size: 30px;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  
+  .guide-heading p {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 75%;
+    font-weight: 400;
+  }
+  
+  .guide-images {
+    width: auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .guide-box img {
+    height: 150px;
+    width: 250px;
+  }
+  
+  .guide-box2 {
+    height: 120px;
+    width: 200px;
+    background-color: rgb(245, 247, 250);
+    transform: translate(20px,-50px);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 10px;
+    box-shadow: 0px 10px 15px rgb(220, 223, 227);
+  
+  }
+  
+  .guide-box2 p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    line-height: 1.2;
+  }
+  
+  .guide-box2 a{
+    text-decoration: none;
+    color: rgb(76, 175, 79);
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .guide-box2 a i {
+    text-align: center;
+    margin: 0px 10px;
+  }
+
+  #demo {
+    height: 230px;
+    padding: 20px 60px;
+  }
+  
+  #demo h1 {
+    font-size: 55px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #footbar {
+    height: 350px;
+    background-color: rgb(38, 50, 56);
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+   .foot-icon {
+    display: flex;
+    gap: 10px;
+   }
+  
+  .rights {
+    margin: 20px 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .rights h1 {
+    color:white;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .rights p {
+    font-size: 12px;
+    line-height: 2;
+    color: white;
+    font-weight: 200;
+  }
+  
+  .updates {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 300px;
+    margin: 0px 0px;
+  }
+  
+  .links table{
+    width: 100%;
+    border-collapse: separate;
+    margin: 0px auto;
+  }
+  
+  .links th {
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  
+  .links  th,td {
+    padding: 12px 20px;
+    text-align: left;
+  }
+  
+  .links td {
+    font-weight: 100;
+  }
+  
+  .mail {
+    padding: 30px 0px;
+  }
+  
+  .mail h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .mail input {
+    height: 20px;
+    padding: 10px 40px 10px 10px;
+    margin: 20px 0px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(81, 91, 96);
+    color: white;
+  }
+  
+  input::placeholder{
+    color: white;
+    font-weight:300;
+  }
+  
+  .mail img {
+    height: 30px;
+    position: relative;
+    right: 50px;
+    top: 12px;
+  }
+  }
+
+  @media (min-width:1025px) and (max-width:1440px) {
+   
+    .header h1{
+      font-size: 40px;
+      font-weight: 500;
+      width: 50%;
+      margin: 0 auto;
+    }
+    
+    .header p {
+      font-size: 18px;
+      color: gray;
+      margin: 12px auto;
+    }
+    
+    .grids {
+      display: flex;
+      justify-content: space-between;
+      gap: 80px;
+    
+    }
+    
+    .box {
+      background-color: white;
+      padding:30px;
+      border-radius: 10px;
+      box-shadow: 0px 0.5px 0.5px rgb(180, 179, 179);
+      width: 300px;
+    }
+    
+    .box img {
+      height: 70px;
+      width: 70px;
+    
+    }
+    
+    .box h1 {
+      font-size: 25px;
+      margin: 10px auto;
+      width: 55%;
+    }
+    
+    .box p {
+      font-size: 17px;
+      color: gray;
+      font-weight: 200px;
+    }
+    
+    #features img {
+      height: 380px;
+    }
+    
+    .features-section h2 {
+      font-size: 36px;
+      font-weight: 500;
+      width: 90%;
+      margin: 10px 0px;
+    }
+    
+    .features-section p {
+      font-size: 16px;
+      width: 95%;
+      line-height: 1.2;
+    }
+
+    #section {
+      height: 380px;
+      margin: 40px 0px;
+      background-color: rgb(245, 247, 250);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:0 150px;
+    }
+    
+    .section1 h2 {
+      font-size: 40px;
+      font-weight: 500;
+      width:80% ;
+      padding: 10px 0px;
+    }
+    
+    .section1 h2 span {
+      color: rgb(76, 175, 79);
+    }
+    
+    .section1  p {
+      color: black;
+      font-size: 16px;
+    }
+    
+    .section-2 h1 {
+      font-size: 22px;
+    }
+    .section2{
+      margin: 0 80px 0 0px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      grid-gap: 30px 60px;
+    }
+    .section-icon {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    
+    #site {
+      margin: 30px 0px;
+      padding: 0 150px;
+      height: 480px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+    }
+    
+    #site img {
+      box-shadow: 0px 0.5px 0.5px rgb(163, 163, 163);
+      height: 450px;
+    }
+    
+    
+    .site-section {
+      margin: 20px;
+    }
+    
+    .site-section h1{
+      margin: 20px 0px 10px 0px;
+      font-size: 38px;
+      font-weight: 500;
+      width: 100%;
+    }
+    
+    .site-section p {
+      font-size: 16px;
+      width: 100%;
+      font-weight: 200px;
+      line-height: 1.5;
+    }
+    
+    #customer {
+      height: 480px;
+      background-color: aqua;
+      margin: 40px 0px;
+      padding: 0px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 60px;
+      background-color: rgb(245, 247, 250);
+    }
+    
+    .company {
+      height: 400px;
+    }
+    
+    .customer-section {
+      height: 400px;
+    }
+    
+    .customer-section p {
+      font-size: 16px;
+      width: 86%;
+      line-height: 1.5;
+      color: rgb(78, 78, 78);
+    }
+    
+    .customer-section h2 {
+      color: rgb(76, 175, 79);
+      margin: 10px 0px;
+      font-weight: 600;
+    }
+    
+    .customer-section span p {
+      color: gray;
+      font-size: 20px;
+      font-weight: 200px;
+    }
+    
+    
+    .customer-logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      margin: 30px 0px;
+    }
+
+    .customer-logo img {
+      height: 50px;
+    }
+    
+    .customer-logo a {
+      text-decoration: none;
+      font-size: 22px;
+      color:rgb(76, 175, 79);
+    }
+    
+    .customer-logo a i{
+      font-size: 18px;
+      margin: 0px 10px;
+    }
+    
+    #guide {
+      height: 480px;
+      padding: 0 100px;
+      margin: 50px 0px;
+    }
+    
+    .guide-heading {
+      text-align: center;
+    }
+    
+    .guide-heading h1 {
+      font-size: 40px;
+      margin: 0 auto;
+      font-weight: 500;
+    }
+    
+    .guide-heading p {
+      font-size: 18px;
+      margin: 0 auto;
+      width: 57%;
+      font-weight: 400;
+    }
+
+  }
