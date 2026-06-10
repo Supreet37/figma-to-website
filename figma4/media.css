@@ -1,0 +1,1474 @@
+@media (min-width:300px) and (max-width:320px) {
+
+  #head {
+    padding: 20px ;
+  }
+
+  .bar-head {
+    display: block;
+    text-align: center;
+  }
+
+  #menuList {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    height: 100vh;
+    background-color: white; 
+    color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: max-height 0.5s ease-in-out;
+    z-index: 1;
+  }
+  
+  #menuList h1 {
+    transform: translate(-20px,-30px);
+  }
+
+
+  #menuList li {
+    transform: translateX(20px);
+    margin-bottom: 40px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    transition: all 0.5s;
+  }
+
+  #close {
+    position: relative;
+    top: 80px;
+    display: block;
+  }
+
+  .container {
+    height: 25px;
+    width: 60px;
+    transform: translateX(-20px);
+  }
+
+  #ball {
+    top: 2px;
+    right: 4px;
+  }
+
+  #banner {
+    padding: 10px 0px;
+    width: 100%;
+  }
+  
+  
+  #banner h1 { 
+    font-size: 3.5em;
+  }
+  
+  hr {
+    width: 100%;
+  }
+
+  .blog-post {
+  padding: 30px 20px;
+}
+
+.blog-post h2{
+  font-size: 22px;
+}
+
+#post {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.post1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.post1 h2, .post-para h2  {
+  font-size: 21px;
+}
+
+.post1 img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.post-head img {
+  transform: translateY(5px);
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+}
+
+.post2 img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.post2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sub-post {
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.post-para {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.post1 p , .post-para p {
+  font-size: 15px;
+  line-height: 1.3;
+  width: 100%;
+}
+
+.post-links a{
+  margin-right: 2px;
+  padding: 5px 8px;
+}
+
+#post h4 {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+
+#design {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#design img {
+  width: 100%;
+  height: 100%;
+}
+
+.design-para {
+  gap: 15px;
+}
+
+.design-para span {
+  display: none;
+}
+
+.design-para p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.para-head {
+  align-items: start;
+}
+
+.para-head h2 {
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.para-head i {
+  font-size: 22px;
+}
+
+.card {
+  padding: 20px 20px;
+  box-shadow: 0 0 0.5 black;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#blog-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-section img {
+  width: 100%;
+}
+
+.card-section {
+  gap: 10px;
+}
+
+
+.card-head {
+  align-items: start;
+}
+
+.sub-head {
+  align-items: start;
+}
+
+.card-head h2 {
+  font-size: 22px;
+  line-height: 1.2;
+  width: 90%;
+}
+
+.card-head i {
+  font-size: 20px;
+  transform: rotate(325deg);
+
+}
+
+.card-section h4 {
+  font-size: 12px;
+}
+
+.card-section p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.card-links {
+  margin-top: 15px;
+}
+
+.card-links a {
+  padding: 5px 8px;
+  margin-right: 2px;
+  font-size: 14px;
+}
+
+#pagination {
+  padding: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#pagination ul {
+  gap: 30px;
+}
+
+#pagination span {
+  gap: 10px;
+}
+
+footer {
+  padding: 20px 20px;
+  margin: 10px 0px;
+}
+
+.copyright {
+  margin-top: 20px;
+  order: 2;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer li:nth-child(1) {
+  order: 6;
+}
+
+}
+
+
+@media (min-width:321px) and (max-width:376px) {
+
+  #head {
+    padding: 20px;
+  }
+
+  .bar-head {
+    display: block;
+    text-align: center;
+  }
+
+  #menuList {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    height: 100vh;
+    background-color: white; 
+    color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: max-height 0.5s ease-in-out;
+    z-index: 1;
+  }
+  
+  #menuList h1 {
+    transform: translate(-20px,-30px);
+  }
+
+
+  #menuList li {
+    transform: translateX(20px);
+    margin-bottom: 40px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    transition: all 0.5s;
+  }
+
+  #close {
+    position: relative;
+    top: 80px;
+    display: block;
+  }
+
+  .container {
+    height: 25px;
+    width: 60px;
+    transform: translateX(-20px);
+  }
+
+  #ball {
+    top: 2px;
+    right: 4px;
+  }
+
+  #banner {
+    padding: 10px 0px;
+    width: 100%;
+  }
+  
+  
+  #banner h1 { 
+    font-size: 4.2em;
+  }
+  
+  hr {
+    width: 100%;
+  }
+
+  
+  .blog-post {
+    padding: 30px 20px;
+  }
+  
+  .blog-post h2{
+    font-size: 22px;
+  }
+  
+  #post {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .post1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .post1 h2, .post-para h2  {
+    font-size: 22px;
+  }
+  
+  .post1 img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  
+  .post-head img {
+    transform: translateY(5px);
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+  }
+  
+  .post2 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .post2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .sub-post {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+  }
+  
+  .post-para {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  
+  .post1 p , .post-para p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  
+  .post-links a{
+    margin-right: 2px;
+    padding: 5px 8px;
+  }
+  
+  #post h4 {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  
+#design {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#design img {
+  width: 100%;
+  height: 100%;
+}
+
+.design-para {
+  gap: 15px;
+}
+
+.design-para span {
+  display: none;
+}
+
+.design-para p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.para-head {
+  align-items: start;
+}
+
+.para-head h2 {
+  font-size: 25px;
+  line-height: 1.3;
+}
+
+.para-head i {
+  font-size: 22px;
+}
+
+
+.card {
+  padding: 20px 20px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#blog-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-section img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-section {
+  gap: 15px;
+}
+
+
+.card-head {
+  align-items: start;
+}
+
+.sub-head {
+  align-items: start;
+}
+
+.card-head h2 {
+  font-size: 26px;
+  line-height: 1.2;
+  width: 90%;
+}
+
+.card-head i {
+  font-size: 20px;
+  transform: rotate(325deg);
+
+}
+
+.card-section h4 {
+  font-size: 14px;
+}
+
+.card-section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.card-links {
+  margin-top: 15px;
+}
+
+.card-links a {
+  padding: 8px 12px;
+  margin-right: 2px;
+  font-size: 16px;
+}
+
+#pagination {
+  padding: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+#pagination ul {
+  gap: 30px;
+}
+
+#pagination span {
+  gap: 10px;
+}
+footer {
+  padding: 20px 20px;
+  margin: 10px 0px;
+}
+
+.copyright {
+  margin-top: 20px;
+  order: 2;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer li:nth-child(1) {
+  order: 6;
+}
+
+
+
+}
+
+@media(min-width:377px) and (max-width:500px) {
+  #head {
+    padding: 20px ;
+  }
+
+  .bar-head {
+    display: block;
+    text-align: center;
+  }
+
+  #menuList {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    height: 100vh;
+    background-color: white; 
+    color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: max-height 0.5s ease-in-out;
+    z-index: 1;
+  }
+  
+  #menuList h1 {
+    transform: translate(-20px,-30px);
+  }
+
+
+  #menuList li {
+    transform: translateX(20px);
+    margin-bottom: 40px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    transition: all 0.5s;
+  }
+
+  #close {
+    position: relative;
+    top: 80px;
+    display: block;
+  }
+
+  .container {
+    height: 25px;
+    width: 60px;
+    transform: translateX(-20px);
+  }
+
+  #ball {
+    top: 2px;
+    right: 4px;
+  }
+
+  #banner {
+    padding: 10px 0px;
+    width: 100%;
+  }
+  
+  #banner h1 { 
+    font-size: 4.8em;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  
+  .blog-post {
+    padding: 30px 30px;
+  }
+  
+  .blog-post h2{
+    font-size: 24px;
+  }
+  
+  #post {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .post1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .post1 h2, .post-para h2  {
+    font-size: 26px;
+  }
+  
+  .post1 img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  
+  .post-head img {
+    transform: translateY(4px);
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .post2 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .post2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .sub-post {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+  }
+  
+  .post-para {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  
+  .post1 p , .post-para p {
+    font-size: 18px;
+    width: 94%;
+    line-height: 1.3;
+  }
+  
+  .post-links a{
+    margin-right: 2px;
+    padding: 5px 8px;
+  }
+  
+  #post h4 {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  #design {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #design img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .design-para {
+    gap: 15px;
+  }
+  
+  .design-para span {
+    display: none;
+  }
+  
+  .design-para p {
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  
+  .para-head {
+    align-items: start;
+  }
+  
+  .para-head h2 {
+    font-size: 25px;
+    line-height: 1.3;
+  }
+  
+  .para-head i {
+    font-size: 22px;
+  }
+
+  .card {
+    padding: 20px 20px;
+  }
+  
+  .card h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  #blog-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card-section img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .card-section {
+    gap: 15px;
+  }
+  
+  
+  .card-head {
+    align-items: start;
+  }
+  
+  .sub-head {
+    align-items: start;
+  }
+  
+  .card-head h2 {
+    font-size: 26px;
+    line-height: 1.2;
+    width: 90%;
+  }
+  
+  .card-head i {
+    font-size: 24px;
+    transform: rotate(325deg);
+  
+  }
+  
+  .card-section h4 {
+    font-size: 14px;
+  }
+  
+  .card-section p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .card-links {
+    margin-top: 15px;
+  }
+  
+  .card-links a {
+    padding: 8px 12px;
+    margin-right: 2px;
+    font-size: 16px;
+  }
+
+  #pagination {
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  #pagination ul {
+    gap: 40px;
+  }
+  
+  #pagination span {
+    gap: 10px;
+  }
+  
+  footer {
+    padding: 20px 20px;
+    margin: 10px 0px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    order: 2;
+  }
+  
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  footer li:nth-child(1) {
+    order: 6;
+  }
+  
+}
+
+@media(min-width:501px) and (max-width:768px) {
+  #head {
+    padding: 20px 20px;
+  }
+
+  #bar {
+    display: inline-block;
+    font-size: 18px;
+   }
+  
+   nav a {
+    margin-right: 25px;
+   }
+
+    #bar {
+      display: none;
+    }
+
+  .container {
+    height: 25px;
+    width: 60px;
+    transform: translateX(0px);
+  }
+
+  #ball {
+    top: 2px;
+    right: 4px;
+  }
+
+  #banner {
+    padding: 20px 0px;
+    width: 100%;
+  }
+  
+  #banner h1 { 
+    font-size: 9em;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .blog-post {
+    padding: 30px 30px;
+  }
+  
+  .blog-post h2{
+    font-size: 32px;
+  }
+  
+  #post {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .post1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .post1 h2, .post-para h2  {
+    font-size: 26px;
+  }
+  
+  .post1 img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  
+  .post-head img {
+    transform: translateY(4px);
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .post2 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .post2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .sub-post {
+    display: grid;
+    gap:30px;
+  }
+  
+  .post-para {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  
+  .post1 p , .post-para p {
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.5;
+  }
+  
+  .post-links a{
+    margin-right: 5px;
+    padding: 5px 8px;
+  }
+  
+  #post h4 {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  #design {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #design img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .design-para {
+    gap: 15px;
+  }
+  
+  .design-para p {
+    line-height: 1.5;
+    font-size: 15.8px;
+  }
+  
+  .para-head {
+    align-items: start;
+  }
+  
+  .para-head h2 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+  
+  .para-head i {
+    font-size: 22px;
+  }
+
+  .card {
+    padding: 30px 30px;
+  }
+  
+  .card h3 {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  
+  #blog-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:0px  20px;
+  }
+ 
+  .card-section {
+    gap: 20px;
+    padding: 10px 0px;
+  }
+
+  .card-head h2 {
+    font-size: 20px;
+    width: 90%;
+  }
+  
+  .card-head i {
+    font-size: 20px;
+    transform: rotate(325deg);
+  
+  }
+
+  .card-links a {
+    font-size: 13px;
+  }
+
+  .card-section p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #pagination {
+    padding: 20px 30px;
+  }
+  
+  #pagination ul {
+    gap: 30px;
+  }
+  
+  footer {
+    padding: 30px 30px 10px;
+  }
+
+  footer ul li a {
+    font-size: 18px;
+  }
+
+}
+
+@media(min-width:769px) and (max-width:1025px) {
+
+  #head {
+    padding: 20px 85px;
+  }
+
+  #banner h1 { 
+    font-size: 11em;
+  }
+
+  hr {
+    width: 83%;
+  }
+  
+  
+  .blog-post {
+    padding: 30px 60px 30px 90px;
+  }
+  
+  .blog-post h2{
+    font-size: 32px;
+  }
+  
+  #post {
+    display: grid;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .post1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .post1 h2, .post-para h2  {
+    font-size: 17px;
+  }
+
+  .post1 h2 {
+    font-size: 26px;
+  }
+  
+  .post1 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  
+  
+  .post-head img {
+    transform: translateY(4px);
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .post2 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .post2 {
+    gap: 30px;
+  }
+  
+  .sub-post {
+    display: grid;
+    gap:20px;
+  }
+  
+  .post-para {
+    gap: 10px;
+  }
+  
+  .post1 p , .post-para p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.2;
+  }
+  
+  .post-links a{
+    font-size: 19px;
+    margin-right: 5px;
+  }
+  
+  #post h4 {
+    font-size: 14px;
+    font-weight: 750;
+  }
+
+  #design {
+    padding: 30px 90px;
+    gap: 20px;
+  }
+  
+  .design-para {
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .design-para p {
+    font-size: 19px;
+    width: 100%;
+  }
+
+  .design-para span {
+    font-size: 20px;
+  }
+
+
+  .design-para h4 {
+    font-size: 20px;
+  }
+
+  .para-head {
+    align-items: start;
+  }
+
+  .para-head h2 {
+    font-size: 24px;
+  }
+
+  .card {
+    padding: 30px 90px;
+  }
+  
+  .card h3 {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  
+  #blog-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:10px  30px;
+  }
+ 
+  .card-section {
+    gap: 20px;
+    padding: 10px 0px;
+  }
+
+  .card-head h2 {
+    font-size: 26px;
+    width: 90%;
+  }
+  
+  .card-head i {
+    font-size: 20px;
+    transform: rotate(325deg);
+  
+  }
+
+  .card-section p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #pagination {
+    padding: 20px 90px;
+  }
+  
+  #pagination ul {
+    gap: 40px;
+  }
+
+  #pagination ul li a , span{
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 20px 90px;
+  }
+  
+  footer ul li a {
+    font-size: 22px;
+  }
+}
+
+@media(min-width:1026px) and (max-width:1440px) {
+
+  #head {
+    padding: 40px 110px;
+  }
+
+  #head h1 {
+    font-size: 26px;
+  }
+
+ nav a {
+  font-size: 22px;
+}
+
+  #banner h1 { 
+    font-size: 16.2em;
+  }
+
+  .blog-post {
+    padding: 30px 110px;
+  }
+  .blog-post {
+    padding: 30px 90px 30px 120px;
+  }
+  
+  .blog-post h2{
+    font-size: 28px;
+  }
+  
+  #post {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px 35px;
+    margin-top: 30px;
+  }
+  
+  .post1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .post1 h2, .post-para h2  {
+    font-size: 24px;
+  }
+
+  .post1 h2 {
+    font-size: 34px;
+  }
+  
+  .post1 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  
+  .post-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .post-head img {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .post2 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .post2 {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+  }
+  
+  .sub-post {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px 30px;
+  }
+  
+  .post-para {
+    display: flex;
+    flex-direction: column;
+    gap: 15x;
+  }
+  
+  .post1 p , .post-para p {
+    font-size: 24px;
+    line-height: 1.3;
+    color:rgba(102, 112, 133, 1);
+    width: 90%;
+  }
+  
+  .post-links {
+    margin-top: 12px;
+  }
+  
+  .post-links a{
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 22px;
+  }
+
+  
+  #post h4 {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  #design {
+    padding: 30px 90px;
+    gap: 30px;
+  }
+  
+  .design-para {
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .design-para p{
+    font-size: 26px;
+    line-height: 1.4;
+    width: 100%;
+  }
+
+  .design-para span {
+    font-size: 26px;
+  }
+
+
+  .design-para h4 {
+    font-size: 22px;
+  }
+
+  .para-head {
+    align-items: start;
+  }
+
+  .para-head h2 {
+    font-size: 26px;
+  }
+
+  .card {
+    padding: 30px 90px;
+  }
+
+  .card-section p {
+    font-size: 17px;
+  }
+  
+  .card-links a {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  #pagination {
+    padding: 20px 90px;
+  }
+  
+  #pagination ul {
+    gap: 40px;
+  }
+
+  #pagination ul li a , span{
+    font-size: 26px;
+  }
+
+  footer {
+    padding: 20px 90px;
+  }
+
+  footer ul li a {
+    font-size: 26px;
+  }
+
+}
